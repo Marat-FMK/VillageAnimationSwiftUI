@@ -9,10 +9,23 @@ import SwiftUI
 
 struct VillageHome: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        GeometryReader { geometry in
+            Path { path in
+                path.move(to: CGPoint(x: 0, y: 400))
+                path.addLine(to: CGPoint(x: 0 , y: 150))
+                path.addLine(to: CGPoint(x: 150, y: 0))
+                path.addLine(to: CGPoint(x: 300, y: 150))
+                path.addLine(to: CGPoint(x: 300, y: 400))
+            }
+            .fill(Color.yellow)
+        }
     }
 }
 
 #Preview {
     VillageHome()
+        .frame(width: 300, height: 400)
+        
 }
+

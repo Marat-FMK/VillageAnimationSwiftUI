@@ -11,6 +11,9 @@
 		6CC64BFD2C6D3625000B6559 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC64BFC2C6D3625000B6559 /* ContentView.swift */; };
 		6CC64BFF2C6D3626000B6559 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC64BFE2C6D3626000B6559 /* Assets.xcassets */; };
 		6CC64C022C6D3626000B6559 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CC64C012C6D3626000B6559 /* Preview Assets.xcassets */; };
+		6CC64C092C6D368F000B6559 /* VillageHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC64C082C6D368F000B6559 /* VillageHome.swift */; };
+		6CC64C0B2C6D5053000B6559 /* WindowHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC64C0A2C6D5053000B6559 /* WindowHome.swift */; };
+		6CC64C0D2C6D5683000B6559 /* Sun.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CC64C0C2C6D5683000B6559 /* Sun.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		6CC64BFC2C6D3625000B6559 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CC64BFE2C6D3626000B6559 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CC64C012C6D3626000B6559 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CC64C082C6D368F000B6559 /* VillageHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageHome.swift; sourceTree = "<group>"; };
+		6CC64C0A2C6D5053000B6559 /* WindowHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowHome.swift; sourceTree = "<group>"; };
+		6CC64C0C2C6D5683000B6559 /* Sun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sun.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				6CC64BFA2C6D3625000B6559 /* VillageAnimationSwiftUIApp.swift */,
 				6CC64BFC2C6D3625000B6559 /* ContentView.swift */,
+				6CC64C0C2C6D5683000B6559 /* Sun.swift */,
+				6CC64C082C6D368F000B6559 /* VillageHome.swift */,
+				6CC64C0A2C6D5053000B6559 /* WindowHome.swift */,
 				6CC64BFE2C6D3626000B6559 /* Assets.xcassets */,
 				6CC64C002C6D3626000B6559 /* Preview Content */,
 			);
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CC64C0D2C6D5683000B6559 /* Sun.swift in Sources */,
+				6CC64C0B2C6D5053000B6559 /* WindowHome.swift in Sources */,
 				6CC64BFD2C6D3625000B6559 /* ContentView.swift in Sources */,
+				6CC64C092C6D368F000B6559 /* VillageHome.swift in Sources */,
 				6CC64BFB2C6D3625000B6559 /* VillageAnimationSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
